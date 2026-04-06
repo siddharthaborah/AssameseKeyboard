@@ -1,4 +1,4 @@
-# AssameseKeyboard
+# AssameseKeyboard (Experimental)
 
 A Windows desktop Assamese keyboard input app built with WinUI 3 on .NET 8.
 
