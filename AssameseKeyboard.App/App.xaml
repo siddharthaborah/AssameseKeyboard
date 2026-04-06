@@ -1,0 +1,20 @@
+<!-- =============================================================================
+     FILE: AssameseKeyboard.App/App.xaml
+     INSTRUCTION:
+       Replace the entire auto-generated App.xaml content with this.
+       The XamlControlsResources merge is required for WinUI 3 control styling.
+     ============================================================================= -->
+<Application
+    x:Class="AssameseKeyboard.App.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources
+                    xmlns="using:Microsoft.UI.Xaml.Controls"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

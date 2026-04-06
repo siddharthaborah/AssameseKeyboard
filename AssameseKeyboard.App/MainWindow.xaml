@@ -1,0 +1,93 @@
+<!-- =============================================================================
+     FILE: AssameseKeyboard.App/MainWindow.xaml
+     INSTRUCTION:
+       Replace the entire auto-generated MainWindow.xaml content with this.
+       NavigationView is the shell; pages are loaded into ContentFrame.
+       Mica backdrop is applied in code-behind for Windows 11.
+     ============================================================================= -->
+<Window
+    x:Class="AssameseKeyboard.App.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Assamese Keyboard">
+
+    <Grid>
+        <NavigationView
+            x:Name="NavView"
+            PaneDisplayMode="Left"
+            IsSettingsVisible="False"
+            IsPaneToggleButtonVisible="True"
+            OpenPaneLength="200"
+            SelectionChanged="NavView_SelectionChanged"
+            Loaded="NavView_Loaded">
+
+            <NavigationView.PaneHeader>
+                <StackPanel Margin="16,12,0,8" Spacing="2">
+                    <!--
+                        "অসমীয়া কীবোৰ্ড" in Unicode escapes:
+                        U+0985 U+09B8 U+09AE U+09C0 U+09AF U+09BC U+09BE
+                        U+0020 (space)
+                        U+0995 U+09C0 U+09AC U+09CB U+09F0 U+09CD U+09A1
+                    -->
+                    <TextBlock
+                        Text="&#x0985;&#x09B8;&#x09AE;&#x09C0;&#x09AF;&#x09BC;&#x09BE;"
+                        FontSize="16"
+                        FontWeight="SemiBold"
+                        Foreground="{ThemeResource AccentTextFillColorPrimaryBrush}"/>
+                    <TextBlock
+                        Text="Assamese Keyboard"
+                        FontSize="11"
+                        Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                </StackPanel>
+            </NavigationView.PaneHeader>
+
+            <NavigationView.MenuItems>
+
+                <!-- Keyboard Layout Preview -->
+                <NavigationViewItem
+                    Content="Keyboard Layout"
+                    Tag="KeyboardPreview"
+                    ToolTipService.ToolTip="Visual keyboard layout reference">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE92E;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+                <!-- Character Reference -->
+                <NavigationViewItem
+                    Content="Character Reference"
+                    Tag="CharReference"
+                    ToolTipService.ToolTip="Full Unicode character table">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE8A4;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+                <!-- Settings -->
+                <NavigationViewItem
+                    Content="Settings"
+                    Tag="Settings"
+                    ToolTipService.ToolTip="Enable, disable, startup options">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE713;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+                <!-- About -->
+                <NavigationViewItem
+                    Content="About"
+                    Tag="About"
+                    ToolTipService.ToolTip="Version and Unicode information">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE946;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+            </NavigationView.MenuItems>
+
+            <!-- Page content host -->
+            <Frame x:Name="ContentFrame" Margin="0"/>
+
+        </NavigationView>
+    </Grid>
+</Window>

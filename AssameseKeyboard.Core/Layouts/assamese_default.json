@@ -1,0 +1,256 @@
+{
+  "name": "Assamese Default",
+  "version": "1.3.0",
+  "author": "AssameseKeyboard Project",
+
+  "mappings": [
+
+    {
+      "key": "D1",
+      "base": "\u09E7",
+      "shifted": "\u0964"
+    },
+    {
+      "key": "D2",
+      "base": "\u09E8",
+      "shifted": "@"
+    },
+    {
+      "key": "D3",
+      "base": "\u09E9",
+      "shifted": "#"
+    },
+    {
+      "key": "D4",
+      "base": "\u09EA",
+      "shifted": "$"
+    },
+    {
+      "key": "D5",
+      "base": "\u09EB",
+      "shifted": "%"
+    },
+    {
+      "key": "D6",
+      "base": "\u09EC",
+      "shifted": "\u09A4\u09CD\u09F0"
+    },
+    {
+      "key": "D7",
+      "base": "\u09ED",
+      "shifted": "\u0995\u09CD\u09B7"
+    },
+    {
+      "key": "D8",
+      "base": "\u09EE",
+      "shifted": "*"
+    },
+    {
+      "key": "D9",
+      "base": "\u09EF",
+      "shifted": "("
+    },
+    {
+      "key": "D0",
+      "base": "\u09E6",
+      "shifted": ")"
+    },
+    {
+      "key": "OemMinus",
+      "base": "\u0983",
+      "shifted": "_"
+    },
+    {
+      "key": "Oemplus",
+      "base": "\u09CE",
+      "shifted": "\u0965"
+    },
+
+    {
+      "key": "Q",
+      "base": "\u0993",
+      "shifted": "\u0994",
+      "altGr": "\u0990"
+    },
+    {
+      "key": "W",
+      "base": "\u09F1",
+      "shifted": "\u09F1",
+      "altGr": "\u0982"
+    },
+    {
+      "key": "E",
+      "base": "\u0985",
+      "shifted": "\u0986",
+      "altGr": "\u098B"
+    },
+    {
+      "key": "R",
+      "base": "\u0987",
+      "shifted": "\u0988",
+      "altGr": "\u098B"
+    },
+    {
+      "key": "T",
+      "base": "\u0989",
+      "shifted": "\u098A",
+      "altGr": "\u098C"
+    },
+    {
+      "key": "Y",
+      "base": "\u09AC",
+      "shifted": "\u09AD"
+    },
+    {
+      "key": "U",
+      "base": "\u09B9",
+      "shifted": "\u0999",
+      "altGr": "\u09C2"
+    },
+    {
+      "key": "I",
+      "base": "\u0997",
+      "shifted": "\u0998",
+      "altGr": "\u09C0"
+    },
+    {
+      "key": "O",
+      "base": "\u09A6",
+      "shifted": "\u09A7"
+    },
+    {
+      "key": "P",
+      "base": "\u099C",
+      "shifted": "\u099D",
+      "altGr": "\u09B7"
+    },
+    {
+      "key": "OemOpenBrackets",
+      "base": "\u09A1",
+      "shifted": "\u09A2"
+    },
+    {
+      "key": "OemCloseBrackets",
+      "base": "\u09BC",
+      "shifted": "\u099E"
+    },
+    {
+      "key": "OemBackslash",
+      "base": "\u09AF",
+      "shifted": "|"
+    },
+
+    {
+      "key": "A",
+      "base": "\u09BE",
+      "shifted": "\u09CB",
+      "altGr": "\u09CC"
+    },
+    {
+      "key": "S",
+      "base": "\u09C7",
+      "shifted": "\u098F",
+      "altGr": "\u09C8"
+    },
+    {
+      "key": "D",
+      "base": "\u09CD",
+      "shifted": "\u0985"
+    },
+    {
+      "key": "F",
+      "base": "\u09BF",
+      "shifted": "\u0987",
+      "altGr": "\u09C3"
+    },
+    {
+      "key": "G",
+      "base": "\u09C1",
+      "shifted": "\u0989",
+      "altGr": "\u09C2"
+    },
+    {
+      "key": "H",
+      "base": "\u09AA",
+      "shifted": "\u09AB"
+    },
+    {
+      "key": "J",
+      "base": "\u09F0",
+      "shifted": "\u09F0"
+    },
+    {
+      "key": "K",
+      "base": "\u0995",
+      "shifted": "\u0996"
+    },
+    {
+      "key": "L",
+      "base": "\u09A4",
+      "shifted": "\u09A5"
+    },
+    {
+      "key": "OemSemicolon",
+      "base": "\u099A",
+      "shifted": "\u099B",
+      "altGr": "\u09B0"
+    },
+    {
+      "key": "OemQuotes",
+      "base": "\u099F",
+      "shifted": "\u09A0"
+    },
+
+    {
+      "key": "Z",
+      "base": "\u09CE",
+      "shifted": "\u09A3"
+    },
+    {
+      "key": "X",
+      "base": "\u09BC",
+      "shifted": "\u0981",
+      "altGr": "\u0983"
+    },
+    {
+      "key": "C",
+      "base": "\u09AE",
+      "shifted": "\u09A3"
+    },
+    {
+      "key": "V",
+      "base": "\u09A8",
+      "shifted": "\u09A8"
+    },
+    {
+      "key": "B",
+      "base": "\u09F0",
+      "shifted": "\u09F1"
+    },
+    {
+      "key": "N",
+      "base": "\u09B2",
+      "shifted": "\u09A8"
+    },
+    {
+      "key": "M",
+      "base": "\u09B8",
+      "shifted": "\u09B6"
+    },
+    {
+      "key": "Oemcomma",
+      "base": ",",
+      "shifted": "\u09AF"
+    },
+    {
+      "key": "OemPeriod",
+      "base": "\u0964",
+      "shifted": "\u0965"
+    },
+    {
+      "key": "OemQuestion",
+      "base": "/",
+      "shifted": "?"
+    }
+  ]
+}

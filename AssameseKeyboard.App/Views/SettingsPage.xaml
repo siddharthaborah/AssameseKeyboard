@@ -1,0 +1,16 @@
+<!-- =============================================================================
+     FILE: AssameseKeyboard.App/Views/SettingsPage.xaml
+     INSTRUCTION:
+       Uses only built-in WinUI 3 controls — NO CommunityToolkit.WinUI.Controls
+       dependency needed. Each "settings card" is a plain Border+Grid.
+       This avoids all NuGet package naming confusion.
+     ============================================================================= -->
+<Page
+    x:Class="AssameseKeyboard.App.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="Transparent">
+    <Grid Padding="24">
+        <TextBlock Text="Settings" Style="{StaticResource TitleTextBlockStyle}"/>
+    </Grid>
+</Page>

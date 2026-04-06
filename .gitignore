@@ -1,0 +1,27 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test / coverage
+TestResults/
+*.trx
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# NuGet packages folder (if local)
+packages/
+
+# Logs
+*.log
+
+# Temporary diagnostics
+xaml_*.txt

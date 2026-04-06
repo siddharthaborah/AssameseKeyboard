@@ -1,0 +1,45 @@
+<!--
+  AssameseKeyboard.Core.csproj
+  ============================
+  INSTRUCTION:
+    Replace the entire auto-generated .csproj content with this.
+    AllowUnsafeBlocks is required for the P/Invoke structs.
+    The EmbeddedResource entry embeds the JSON layout into the DLL.
+    The FrameworkReference gives us System.Windows.Forms.Keys enum
+    without pulling in the full WinForms runtime — just the type metadata.
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+       <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+		<TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+		<RootNamespace>AssameseKeyboard.Core</RootNamespace>
+		<AssemblyName>AssameseKeyboard.Core</AssemblyName>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>12</LangVersion>
+		<Optimize Condition="'$(Configuration)'=='Release'">true</Optimize>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<Platforms>AnyCPU;x64</Platforms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Logging abstractions only — no concrete logger in Core -->
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+
+		<!-- JSON serialisation for layout files -->
+		<PackageReference Include="System.Text.Json" Version="8.0.5" />
+	</ItemGroup>
+
+	<!--
+    Embed the default layout JSON directly into the assembly.
+    IMPORTANT: After adding the file in Solution Explorer, set
+    Build Action = EmbeddedResource in the Properties panel.
+    This block enforces it at the project level as a safety net.
+  -->
+	<ItemGroup>
+		<EmbeddedResource Include="Layouts\assamese_default.json" />
+	</ItemGroup>
+
+</Project>

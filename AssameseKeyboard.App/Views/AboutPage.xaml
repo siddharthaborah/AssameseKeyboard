@@ -1,0 +1,12 @@
+<!-- =============================================================================
+     FILE: AssameseKeyboard.App/Views/AboutPage.xaml
+     ============================================================================= -->
+<Page
+    x:Class="AssameseKeyboard.App.Views.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="Transparent">
+    <Grid Padding="24">
+        <TextBlock Text="About" Style="{StaticResource TitleTextBlockStyle}"/>
+    </Grid>
+</Page>

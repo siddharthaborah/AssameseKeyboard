@@ -1,0 +1,14 @@
+<!-- =============================================================================
+     FILE: AssameseKeyboard.App/Views/CharReferencePage.xaml
+     PURPOSE: Full Unicode character table for the Assamese block.
+              All Assamese text uses &#xXXXX; XML character references.
+     ============================================================================= -->
+<Page
+    x:Class="AssameseKeyboard.App.Views.CharReferencePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="Transparent">
+    <Grid Padding="24">
+        <TextBlock Text="Character Reference" Style="{StaticResource TitleTextBlockStyle}"/>
+    </Grid>
+</Page>

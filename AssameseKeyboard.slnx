@@ -1,0 +1,19 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="AssameseKeyboard.App/AssameseKeyboard.App.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+  <Project Path="AssameseKeyboard.Core/AssameseKeyboard.Core.csproj">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
+  <Project Path="AssameseKeyboard.Tests/AssameseKeyboard.Tests.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+</Solution>

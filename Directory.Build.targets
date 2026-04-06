@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup Condition="'$(TargetPlatformIdentifier)' == 'Windows' and '$(TargetPlatformVersion)' == ''">
+    <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AssameseKeyboard.Tests (Package)": {
+      "commandName": "Project"
+    },
+    "AssameseKeyboard.Tests (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

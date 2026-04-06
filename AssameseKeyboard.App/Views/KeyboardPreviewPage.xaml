@@ -1,0 +1,16 @@
+<!-- =============================================================================
+     FILE: AssameseKeyboard.App/Views/KeyboardPreviewPage.xaml
+     INSTRUCTION: Create folder "Views" in AssameseKeyboard.App. Add this file.
+     All Assamese text in XAML uses &#xXXXX; XML character references
+     (equivalent to \uXXXX in C#) so the file is encoding-safe.
+     ============================================================================= -->
+<Page
+    x:Class="AssameseKeyboard.App.Views.KeyboardPreviewPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="Transparent">
+    <Grid Padding="24">
+        <TextBlock Text="Keyboard Layout" Style="{StaticResource TitleTextBlockStyle}"/>
+    </Grid>
+</Page>
+
