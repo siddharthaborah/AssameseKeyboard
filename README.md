@@ -66,6 +66,13 @@ Tray icons are expected at:
 - Project is configured for unpackaged debug run in current setup.
 - If Visual Studio caches old launch settings, close and reopen the solution.
 
+## Output Screenshot
+
+Example Assamese typing output:
+
+![Assamese Keyboard Output Demo](docs/images/output-demo.png)
+
 ## License
 
-No license file is currently included. Add one if you plan to publish publicly.
+This project is licensed under the GNU General Public License v3.0.
+See `LICENSE` for details.
